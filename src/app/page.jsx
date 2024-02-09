@@ -4,6 +4,10 @@ import styles from "./page.module.scss";
 export default function Home() {
   return (
     <main className={styles.main}>
+      {/* <img src="chata-na-przegibku.jpg"/> */}
+      <div className={styles.imgContainer}>
+      <Image src="/chata-na-przegibku.jpg" alt="chata na przegibku" fill style={{objectFit: "cover"}}/>
+      </div>
       {/* <div className={styles.description}>
         <p>
           Get started by editing&nbsp;
