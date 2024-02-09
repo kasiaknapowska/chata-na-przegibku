@@ -1,4 +1,4 @@
-import {hamburger, open} from "./hamburger.module.scss"
+import styles from "./hamburger.module.scss"
 
 const Hamburger = ({onHamburgerClick, isMenuOpen}) => {
 
@@ -6,7 +6,7 @@ const Hamburger = ({onHamburgerClick, isMenuOpen}) => {
     <div
       role="presentation"
       onClick={() => onHamburgerClick()}
-      className={`${hamburger} ${isMenuOpen && open}`}
+      className={`${styles.hamburger} ${isMenuOpen && styles.open}`}
     >
       <span></span>
       <span></span>

@@ -1,16 +1,16 @@
-import Link from "next/link";
-import {nav, navOpen} from "./links.module.scss"
+import styles from "./links.module.scss"
+import NavLink from "./navLink/NavLink";
 
 const navLinks = [
-    { label: "oferta", url: "/" },
-    { label: "kontakt", url: "/kontakt" }
+    { label: "oferta", path: "/" },
+    { label: "kontakt", path: "/kontakt" }
   ]
   
   const Links = ({isMenuOpen}) => {
     return (
-        <nav className={`${!isMenuOpen && nav} ${isMenuOpen && navOpen}`}>
+        <nav className={`${!isMenuOpen && styles.nav} ${isMenuOpen && styles.navOpen}`}>
         {navLinks.map(link => (
-          <Link href={link.url} key={link.url}>{link.label}</Link>
+          <NavLink item={link} key={link.label}/>
         ))}
       </nav>
     )
