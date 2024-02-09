@@ -2,7 +2,7 @@
 @import "@/styles/variables";
 .hamburger {
  
-   @media screen and (max-width: 1000px) {
+   @media screen and (max-width: 999px) {
     width: 2rem;
     height: 2rem;
     -webkit-transform: rotate(0deg);

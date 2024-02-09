@@ -3,40 +3,9 @@
 .navbar {
     display: flex;
     justify-content: space-between;
-    padding: 2rem 0;
-
-    .nav {
-        @media screen and (max-width: "1000px") {
-            display: none;
-        }
-        display: flex;
-        gap: $space3;
-        text-transform: uppercase;
-        a {
-            font-weight: 500;
-            &:hover {
-                color: $colorNeutralLight;
-                text-decoration: underline;
-                text-decoration-thickness: 2px;
-                text-underline-offset: $space2;
-            }
-        }
-    }
-    .navOpen {
-        display: flex;
-        flex-direction: column;
-        gap: $space6;
-        justify-content: center;
-        background-color: $colorNeutralDark;
-        position: fixed;
-        width: 100%;
-        height: 100vh;
-        top: 0;
-        left: 0;
-        z-index: 3;
-        text-align: center;
-        color: white;
-        text-transform: uppercase;
-        font-size: 2rem;
+    align-items: center;
+    padding: $space3 0;
+    @media screen and ($desktopS) {
+        padding: $space6 0;
     }
 }

@@ -21,4 +21,14 @@
           outline-width: 0;
         }
       }
+      .container {
+        width: 90%;
+        margin: 0 auto;
+        @media screen and ($tablet) {
+          width: 80%;
+        }
+        @media screen and ($desktop) {
+          max-width: $sizeContent;
+        }
+      }
   }
