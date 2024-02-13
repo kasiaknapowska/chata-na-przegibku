@@ -2,6 +2,13 @@
 $colorNeutral: #7e7e7e;
 $colorNeutralDark: #343434;
 $colorNeutralLight: #CECECE;
+// $colorGradient: linear-gradient(
+//     235deg,
+//     rgba(0, 0, 0, 1) 0%,
+//     rgba(0, 0, 0, .5) 70%,
+//     rgba(0, 0, 0, .1) 100%
+//   );
+$colorGradient:  linear-gradient(0deg, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0.5) 60%, rgba(0,0,0,0) 100%);
 
 //spaces
 $space1: 0.25rem;
@@ -12,6 +19,18 @@ $space5: 2rem;
 $space6: 3rem;
 
 $sizeContent: 1080px;
+
+//fonts
+$montserrat: 'Montserrat', sans-serif;
+
+//font sizes
+$xSmall: 12px;
+$small: 14px;
+$medium: 16px;
+$mediumLarge: 20px;
+$large: 28px;
+$extraLarge: 32px;
+$xxLarge: 52px;
 
 //breakpoints
 $mobile: "max-width: 360px";

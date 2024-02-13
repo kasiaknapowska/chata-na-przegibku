@@ -6,8 +6,67 @@ export default function Home() {
     <main className={styles.main}>
       {/* <img src="chata-na-przegibku.jpg"/> */}
       <div className={styles.imgContainer}>
-      <Image src="/chata-na-przegibku.jpg" alt="chata na przegibku" fill style={{objectFit: "cover"}}/>
+        <Image
+          src="/chata-na-przegibku-hero.jpg"
+          alt="chata na przegibku"
+          fill
+        />
       </div>
+      <div className="heroPlaceholder"></div>
+      <section className="container">
+        <h2>Gdzie nas znajdziesz?</h2>
+        <p>
+          Jeśli marzy Wam się odpoczynek w górach na łonie natury Urokliwe
+          wschody i zachody słońca to serdecznie zapraszamy do nas!
+        </p>
+        <p>
+          Chata na Przegibku znajduje się w miejscowości Rycerka Górna na
+          przełęczy Przegibek. W pobliżu szlaków na Bendoszkę Wielką, Wielką
+          Raczę i Wielką Rycerzową. W kilka kroków możesz znaleźć się w
+          schronisku górskim PTTK Przegibek, w którym zjesz smaczne domowe
+          obiady.
+        </p>
+      </section>
+      <section className="container">
+        <h2>O chacie</h2>
+        <p>
+          W naszej chacie na parterze mamy piękną przestronną jadalnię z
+          kominkiem oraz TV, w której chętnie zorganizujemy wszelakie imprezy
+          okolicznościowe. Na piętrze znajdują się 4 pokoje, które pomieszczą do
+          20 osób.
+        </p>
+        <ol>
+          <li>1 pokój - 2 osobowy + łazienka + TV </li>
+          <li>2 pokój - 4 osobowy + łazienka + TV</li>
+          <li>3 pokój - 6 osobowy + łazienka</li>
+          <li>4 pokój - 4 osobowy + łazienka + TV + aneks kuchenny</li>
+        </ol>
+        <p>
+          Dodatkowo na poddaszu znajduje się 4 osobowy pokój z łazienką na
+          korytarzu.{" "}
+        </p>
+      </section>
+      <section className="container">
+        <h2>Oferujemy</h2>
+        <ul>
+          <li>Kąpiel w bani</li>
+          <li>Saunę</li>
+          <li>Grill</li>
+          <li>Gry planszowe</li>
+          <li>Tennis stołowy</li>
+          <li>Plac zabaw</li>
+          <li>Imprezy okolicznościowe</li>
+        </ul>
+      </section>
+      <section className="container">
+        <h2>W okolicy znajduje się</h2>
+        <ul>
+          <li>Stok narciarski (orczyk)</li>
+          <li>Bacówka</li>
+          <li>Kaplica Podwyższenia Krzyża Świętego</li>
+          <li>Krzyż Jubileuszowy Ziemi Żywieckiej na szczycie</li>
+        </ul>
+      </section>
       {/* <div className={styles.description}>
         <p>
           Get started by editing&nbsp;
