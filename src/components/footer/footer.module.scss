@@ -7,4 +7,9 @@
     z-index: 0;
     margin: 0;
     padding: calc($space6 * 2) 0;
+   & > div:first-child {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
 }

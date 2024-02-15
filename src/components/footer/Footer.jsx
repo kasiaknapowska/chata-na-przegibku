@@ -8,18 +8,35 @@ const Footer = () => {
   return (
     <footer className={footer}>
       <div className="container">
-        <h4>Chata na Przegibku</h4>
-        <p>{address}</p>
-        <a href={`tel:${phone}`}>
+        <div>
+          <h4>Chata na Przegibku</h4>
+          <p>{address}</p>
+          <a href={`tel:${phone}`}>
+            <Image
+              src="/icon-phone-white.svg"
+              alt="telefon kontaktowy"
+              width={20}
+              height={20}
+            />
+            &nbsp;&nbsp;{phoneLabel}
+          </a>
+        </div>
+
+        <a
+          href="https://www.facebook.com/p/Chata-na-Przegibku-100088197709484/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <Image
-            src="/icon-phone-white.svg"
-            alt="telefon kontaktowy"
+            src="/icon-fb.svg"
+            alt="facebook"
             width={20}
-            height={20}
+            height={24}
+            priority
           />
-          &nbsp;&nbsp;{phoneLabel}
         </a>
-        <div></div>
+      </div>
+      <div className="container">
         <small>
           © {new Date().getFullYear()} &middot; Built by KKnapowska with
           {` `}

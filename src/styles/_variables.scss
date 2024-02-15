@@ -1,14 +1,16 @@
 //colors
-$colorNeutral: #7e7e7e;
-$colorNeutralDark: #343434;
-$colorNeutralLight: #CECECE;
-// $colorGradient: linear-gradient(
-//     235deg,
-//     rgba(0, 0, 0, 1) 0%,
-//     rgba(0, 0, 0, .5) 70%,
-//     rgba(0, 0, 0, .1) 100%
-//   );
-$colorGradient:  linear-gradient(0deg, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0.5) 60%, rgba(0,0,0,0) 100%);
+$colorPrimary: #83a605;
+$colorPrimaryLight: #B0BF39;
+$colorSecondary: #0477bf;
+$colorNeutral: #2d3540;
+$colorNeutralDark: #15181c;
+$colorNeutralLight: #6e8499;
+$colorGradient: linear-gradient(
+  0deg,
+  rgba(0, 0, 0, 0.7) 0%,
+  rgba(0, 0, 0, 0.5) 60%,
+  rgba(0, 0, 0, 0) 100%
+);
 
 //spaces
 $space1: 0.25rem;
@@ -21,7 +23,7 @@ $space6: 3rem;
 $sizeContent: 1080px;
 
 //fonts
-$montserrat: 'Montserrat', sans-serif;
+$montserrat: "Montserrat", sans-serif;
 
 //font sizes
 $xSmall: 12px;
@@ -37,4 +39,4 @@ $mobile: "max-width: 360px";
 $tabletS: "min-width: 500px";
 $tablet: "min-width: 700px";
 $desktopS: "min-width: 1000px";
-$desktop: "min-width: 1200px"; 
+$desktop: "min-width: 1200px";
