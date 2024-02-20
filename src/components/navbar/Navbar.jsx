@@ -7,16 +7,16 @@ import styles from "./navbar.module.scss"
 import Link from "next/link";
 
 
-const Navbar = () => {
+const Navbar = ({type}) => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   function onHamburgerClick() {
     setIsMenuOpen(!isMenuOpen);
   }
   return (
-    <div className={`${styles.navbar} container`}>
+    <header className={`${styles.navbar} container`}>
       <Link href="/">
       <Image
-              src="/logo.svg"
+              src={type === "hero" ? "/logo-white.svg" : "/logo-color.svg"}
               alt="Chata na Przegibku Logo"
               // className={styles.logo}
               width={220}
@@ -24,9 +24,9 @@ const Navbar = () => {
               priority
             />
       </Link>
-      <Hamburger onHamburgerClick={onHamburgerClick} isMenuOpen={isMenuOpen}/>
-      <Links isMenuOpen={isMenuOpen}/>
-    </div>
+      <Hamburger type={type} onHamburgerClick={onHamburgerClick} isMenuOpen={isMenuOpen}/>
+      <Links type={type} isMenuOpen={isMenuOpen}/>
+    </header>
   );
 };
 

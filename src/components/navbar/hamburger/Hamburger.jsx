@@ -1,12 +1,12 @@
 import styles from "./hamburger.module.scss"
 
-const Hamburger = ({onHamburgerClick, isMenuOpen}) => {
+const Hamburger = ({type, onHamburgerClick, isMenuOpen}) => {
 
   return (
     <div
       role="presentation"
       onClick={() => onHamburgerClick()}
-      className={`${styles.hamburger} ${isMenuOpen && styles.open}`}
+      className={`${styles.hamburger} ${type === "hero" && styles.hero} ${isMenuOpen && styles.open}`}
     >
       <span></span>
       <span></span>

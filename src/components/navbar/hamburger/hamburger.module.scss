@@ -1,5 +1,6 @@
 
 @import "@/styles/variables";
+
 .hamburger {
  
    @media screen and (max-width: 999px) {
@@ -20,7 +21,7 @@
       position: absolute;
       height: 0.2rem;
       width: 100%;
-      background: white;
+      background: $colorNeutralDark;
       opacity: 1;
       left: 0;
       -webkit-transform: rotate(0deg);
@@ -72,4 +73,9 @@
       }
     }
    }
+  }
+  .hero {
+    span {
+      background-color: white;
+    }
   }

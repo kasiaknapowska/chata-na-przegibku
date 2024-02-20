@@ -4,7 +4,7 @@ import { contact } from "@/data/contact";
 
 export default function Home() {
   return (
-    <main className={styles.main}>
+    <div className={styles.homepage}>
       {/* <img src="chata-na-przegibku.jpg"/> */}
 
       <div className={styles.heroPlaceholder}>
@@ -12,7 +12,9 @@ export default function Home() {
           <span>Czekamy na Ciebie</span> <br></br>w sercu <br></br>Beskidu
           Żywieckiego
         </h1>
-        <a href={`tel:${contact.phone}`} className={styles.heroButton}>Zarezerwuj nocleg</a>
+        <a href={`tel:${contact.phone}`} className={styles.heroButton}>
+          Zarezerwuj nocleg
+        </a>
       </div>
       <div className={styles.imgContainer}>
         <Image
@@ -176,6 +178,6 @@ export default function Home() {
           </p>
         </a>
       </div> */}
-    </main>
+    </div>
   );
 }

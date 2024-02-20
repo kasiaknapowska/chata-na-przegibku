@@ -10,13 +10,18 @@
     a {
         font-weight: 500;
         font-size: $medium;
-        color: white;
+        color: $colorNeutralDark;
         &:hover {
             color: $colorPrimary;
             text-decoration: underline;
             text-decoration-thickness: 2px;
             text-underline-offset: $space2;
         }
+    }
+}
+.hero {
+    a {
+        color: white;
     }
 }
 .navOpen {
