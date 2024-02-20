@@ -7,8 +7,8 @@ $colorNeutralDark: #15181c;
 $colorNeutralLight: #6e8499;
 $colorGradient: linear-gradient(
   0deg,
-  rgba(0, 0, 0, 0.7) 0%,
-  rgba(0, 0, 0, 0.5) 60%,
+  rgba(0, 0, 0, 0.6) 0%,
+  rgba(0, 0, 0, 0.3) 60%,
   rgba(0, 0, 0, 0) 100%
 );
 
@@ -21,6 +21,9 @@ $space5: 2rem;
 $space6: 3rem;
 
 $sizeContent: 1080px;
+
+//radius
+$border: 4px;
 
 //fonts
 $montserrat: "Montserrat", sans-serif;

@@ -2,7 +2,7 @@ import styles from "./links.module.scss"
 import NavLink from "./navLink/NavLink";
 
 const navLinks = [
-    { label: "oferta", path: "/" },
+    { label: "noclegi", path: "/noclegi" },
     { label: "kontakt", path: "/kontakt" }
   ]
   

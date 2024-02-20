@@ -20,6 +20,16 @@ body {
     margin-bottom: $space5;
     position: relative;
     line-height: 150%;
+    &.hero {
+      color: white;
+      font-weight: 700;
+      font-size: clamp(2.5rem, 4vw + 1rem, 6rem);
+      text-align: center;
+      span {
+        font-weight: 400;
+        font-size: clamp(1rem, 4vw + 1rem, 2.5rem);
+      }
+    }
   }
   h2 {
     font-size: $large;
@@ -67,10 +77,5 @@ body {
       max-width: $sizeContent;
     }
   }
-  .heroPlaceholder {
-    height: calc(100vh - 56px);
-    @media screen and ($desktopS) {
-      height: calc(100vh - 105px);
-    }
-  }
+  
 }
