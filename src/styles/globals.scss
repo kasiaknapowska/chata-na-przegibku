@@ -71,6 +71,32 @@ body {
       font-size: $xSmall;
     }
   }
+  table {
+
+    font-size: $medium;
+    border: 1px solid $colorNeutralDark;
+    border-collapse: separate !important;
+    border-radius: $border;
+    width: 100%;
+    max-width: 400px;
+    th, td {
+      padding: $space3 $space4;
+      border-bottom: 1px solid $colorNeutralDark;
+    }
+    tr:last-child td {
+      border: none;
+    }
+  
+  }
+  ul {
+    font-size: $medium;
+    line-height: 2rem;
+    list-style-type: circle;
+    list-style-position: inside;
+    li span {
+      font-weight: 700;
+    }
+  }
   section {
     padding: $space6 0;
   }

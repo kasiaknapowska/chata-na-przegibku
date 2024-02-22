@@ -8,7 +8,7 @@ const navLinks = [
   
   const Links = ({type, isMenuOpen}) => {
     return (
-        <nav className={`${!isMenuOpen && styles.nav} ${type === "hero" && styles.hero} ${isMenuOpen && styles.navOpen}`}>
+        <nav className={`${!isMenuOpen ? styles.nav : undefined} ${type === "hero" ? styles.hero : undefined} ${isMenuOpen ? styles.navOpen : undefined}`}>
         {navLinks.map(link => (
           <NavLink item={link} key={link.label}/>
         ))}

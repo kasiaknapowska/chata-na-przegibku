@@ -22,7 +22,8 @@ export default function Home() {
         />
       </div>
 
-      <section className="container">
+     <div className="container">
+     <section>
         <h2>Poczuj magię gór w Chacie na Przegibku</h2>
         <p>
           Jeśli marzy Wam się odpoczynek w górach na łonie natury, urokliwe
@@ -50,26 +51,7 @@ export default function Home() {
           prawdziwej górskiej atmosfery.
         </p>
       </section>
-      <section className="container">
-        <h2>O chacie</h2>
-        <p>
-          W naszej chacie na parterze mamy piękną przestronną jadalnię z
-          kominkiem oraz TV, w której chętnie zorganizujemy wszelakie imprezy
-          okolicznościowe. Na piętrze znajdują się 4 pokoje, które pomieszczą do
-          20 osób.
-        </p>
-        <ol>
-          <li>1 pokój - 2 osobowy + łazienka + TV </li>
-          <li>2 pokój - 4 osobowy + łazienka + TV</li>
-          <li>3 pokój - 6 osobowy + łazienka</li>
-          <li>4 pokój - 4 osobowy + łazienka + TV + aneks kuchenny</li>
-        </ol>
-        <p>
-          Dodatkowo na poddaszu znajduje się 4 osobowy pokój z łazienką na
-          korytarzu.{" "}
-        </p>
-      </section>
-      <section className="container">
+      <section>
         <h2>Oferujemy</h2>
         <ul>
           <li>Kąpiel w bani</li>
@@ -81,7 +63,7 @@ export default function Home() {
           <li>Imprezy okolicznościowe</li>
         </ul>
       </section>
-      <section className="container">
+      <section>
         <h2>W okolicy znajduje się</h2>
         <ul>
           <li>Stok narciarski (orczyk)</li>
@@ -90,6 +72,7 @@ export default function Home() {
           <li>Krzyż Jubileuszowy Ziemi Żywieckiej na szczycie</li>
         </ul>
       </section>
+     </div>
       {/* <div className={styles.description}>
         <p>
           Get started by editing&nbsp;

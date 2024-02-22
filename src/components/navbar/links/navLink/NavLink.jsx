@@ -8,7 +8,7 @@ const NavLink = ({item}) => {
 const pathName = usePathname();
 
   return (
-    <Link href={item.path} className={pathName === item.path && styles.active}>{item.label}</Link>
+    <Link href={item.path} className={pathName === item.path ? styles.active : undefined}>{item.label}</Link>
   )
 }
 

@@ -1,0 +1,7 @@
+@import "@/styles/variables";
+.pricesTable {
+    tr td:last-child {
+        font-weight: 700;
+        color: $colorPrimary;
+      }
+}
