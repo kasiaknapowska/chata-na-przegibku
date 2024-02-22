@@ -60,9 +60,16 @@ body {
     &:active {
       outline-width: 0;
     }
+    &:hover {
+      color: $colorPrimary;
+    }
   }
+
   small {
     font-size: $xSmall;
+    a {
+      font-size: $xSmall;
+    }
   }
   section {
     padding: $space6 0;

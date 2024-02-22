@@ -1,15 +1,30 @@
 @import "@/styles/variables";
 
 .footer {
-    background-color: $colorNeutralDark;
-    color: white;
-    position: relative;
-    z-index: 0;
-    margin: 0;
-    padding: calc($space6 * 2) 0;
-   & > div:first-child {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
+  background-color: $colorNeutralDark;
+  color: white;
+  position: relative;
+  z-index: 0;
+  margin: 0;
+  padding: calc($space6 * 2) 0;
+  & > div:first-child > a {
+    img {
+      margin-top: $space6;
     }
+  }
+  @media screen and ($tabletS) {
+    & > div:first-child {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      & > a {
+        img {
+            margin: 0;
+        }
+      }
+    }
+  }
+  & > div:last-child {
+    margin-top: calc($space6 * 2);
+  }
 }

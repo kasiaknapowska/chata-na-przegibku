@@ -1,7 +1,7 @@
 import Link from "next/link"
 
 
-const NotFound = () => {
+export default function NotFound () {
   return (
     <>
     <h2>Strona nie istnieje...</h2>
@@ -10,5 +10,3 @@ const NotFound = () => {
     
   )
 }
-
-export default NotFound

@@ -5,8 +5,6 @@ import { contact } from "@/data/contact";
 export default function Home() {
   return (
     <div className={styles.homepage}>
-      {/* <img src="chata-na-przegibku.jpg"/> */}
-
       <div className={styles.heroPlaceholder}>
         <h1 className="hero">
           <span>Czekamy na Ciebie</span> <br></br>w sercu <br></br>Beskidu
