@@ -52,6 +52,17 @@ export default function Home() {
         </p>
       </section>
       <section>
+       <h2>Chata na Przegibku to:</h2> 
+       <ul>
+        <li>Komfortowe noclegi w pokojach o różnym standardzie</li>
+        <li>Piękna, przestronna jadalnia z kominkiem i TV</li>
+        <li>Możliwość organizacji imprez okolicznościowych</li>
+        <li>Przytulna atmosfera i górskie klimaty</li>
+        <li>Idealna baza wypadowa na szlaki turystyczne</li>
+       </ul>
+
+      </section>
+      <section>
         <h2>Oferujemy</h2>
         <ul>
           <li>Kąpiel w bani</li>
