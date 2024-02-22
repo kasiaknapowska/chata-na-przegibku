@@ -1,10 +1,11 @@
 import Image from "next/image";
 import { footer } from "./footer.module.scss";
 import { contact } from "@/data/contact";
+import { links } from "@/data/links";
 
 const Footer = () => {
   const { address, phone, phoneLabel } = contact;
-
+  const { facebook } = links;
   return (
     <footer className={footer}>
       <div className="container">
@@ -22,11 +23,7 @@ const Footer = () => {
           </a>
         </div>
 
-        <a
-          href="https://www.facebook.com/p/Chata-na-Przegibku-100088197709484/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
+        <a href={facebook} target="_blank" rel="noopener noreferrer">
           <Image
             src="/icon-fb.svg"
             alt="facebook"

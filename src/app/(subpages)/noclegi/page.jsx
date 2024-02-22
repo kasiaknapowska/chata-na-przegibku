@@ -5,7 +5,7 @@ import styles from "./page.module.scss";
 export default function Noclegi() {
   return (
     <div className="container">
-      <h1>Noclegi</h1>
+      <h1>Noclegi w Chacie na Przegibku</h1>
       <section>
         <h2>Cennik</h2>
         <table className={styles.pricesTable}>
@@ -24,6 +24,9 @@ export default function Noclegi() {
             </tr>
           </tbody>
         </table>
+        <a href={`tel:${contact.phone}`} className="btn">
+          Zarezerwuj pobyt
+        </a>
       </section>
       <section>
         <h2>Pokoje</h2>
@@ -41,22 +44,34 @@ export default function Noclegi() {
         <table>
           <thead>
             <tr>
-              <th>Ilość osób</th>
-              <th>Łazienka</th>
-              <th>TV</th>
-              <th>Aneks kuchenny</th>
+              <th>Pokój</th>
+              <th>Udogodnienia</th>
             </tr>
           </thead>
           <tbody>
             <tr>
-              <td>2</td>
-              <td>Tak</td>
-              <td>Tak</td>
-              <td>Nie</td>
+              <td>2-os.</td>
+              <td>Łazienka, TV</td>
+            </tr>
+            <tr>
+              <td>4-os.</td>
+              <td>Łazienka, TV</td>
+            </tr>
+            <tr>
+              <td>6-os.</td>
+              <td>Łazienka</td>
+            </tr>
+            <tr>
+              <td>4-os.</td>
+              <td>Łazienka, TV, aneks kuchenny</td>
+            </tr>
+            <tr>
+              <td>4-os.</td>
+              <td>-</td>
             </tr>
           </tbody>
         </table>
-        <ul>
+        {/* <ul>
           <li>
             <span>Pokój 2-osobowy z łazienką i TV</span> (I piętro)
           </li>
@@ -73,7 +88,7 @@ export default function Noclegi() {
           <li>
             <span>Pokój 4-osobowy z łazienką na korytarzu</span> (poddasze) -
           </li>
-        </ul>
+        </ul> */}
         <a href={`tel:${contact.phone}`} className="btn">
           Zapytaj o dostępność
         </a>
