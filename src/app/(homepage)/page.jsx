@@ -18,7 +18,7 @@ export default function Home() {
         <Image
           src="/chata-na-przegibku-hero.jpg"
           alt="chata na przegibku"
-          placeholder="blur"
+          
           loading="lazy"
           fill
         />
