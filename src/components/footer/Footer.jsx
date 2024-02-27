@@ -27,8 +27,8 @@ const Footer = () => {
           <Image
             src="/icon-fb.svg"
             alt="facebook"
-            width={20}
-            height={24}
+            width={30}
+            height={40}
             priority
           />
         </a>

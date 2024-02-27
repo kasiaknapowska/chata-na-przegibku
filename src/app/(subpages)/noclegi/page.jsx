@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { prices } from "@/data/prices";
 import { contact } from "@/data/contact";
 import styles from "./page.module.scss";
@@ -51,19 +52,84 @@ export default function Noclegi() {
           <tbody>
             <tr>
               <td>2-os.</td>
-              <td>Łazienka, TV</td>
+              <td>
+                {" "}
+                <Image
+                  src="/icon-bathroom-color.svg"
+                  alt="łazienka"
+                  width={24}
+                  height={24}
+                  priority
+                />
+                &nbsp;&nbsp;&nbsp;
+                <Image
+                  src="/icon-TV-color.svg"
+                  alt="TV"
+                  width={24}
+                  height={24}
+                  priority
+                />
+              </td>
             </tr>
             <tr>
               <td>4-os.</td>
-              <td>Łazienka, TV</td>
+              <td>
+                <Image
+                  src="/icon-bathroom-color.svg"
+                  alt="łazienka"
+                  width={24}
+                  height={24}
+                  priority
+                />
+                &nbsp;&nbsp;&nbsp;
+                <Image
+                  src="/icon-TV-color.svg"
+                  alt="TV"
+                  width={24}
+                  height={24}
+                  priority
+                />
+              </td>
             </tr>
             <tr>
               <td>6-os.</td>
-              <td>Łazienka</td>
+              <td>
+                <Image
+                  src="/icon-bathroom-color.svg"
+                  alt="łazienka"
+                  width={24}
+                  height={24}
+                  priority
+                />
+              </td>
             </tr>
             <tr>
               <td>4-os.</td>
-              <td>Łazienka, TV, aneks kuchenny</td>
+              <td>
+                <Image
+                  src="/icon-bathroom-color.svg"
+                  alt="łazienka"
+                  width={24}
+                  height={24}
+                  priority
+                />
+                &nbsp;&nbsp;&nbsp;
+                <Image
+                  src="/icon-TV-color.svg"
+                  alt="TV"
+                  width={24}
+                  height={24}
+                  priority
+                />
+                &nbsp;&nbsp;&nbsp;
+                <Image
+                  src="/icon-kitchen-color.svg"
+                  alt="kuchnia"
+                  width={24}
+                  height={24}
+                  priority
+                />
+              </td>
             </tr>
             <tr>
               <td>4-os.</td>
@@ -71,24 +137,39 @@ export default function Noclegi() {
             </tr>
           </tbody>
         </table>
-        {/* <ul>
-          <li>
-            <span>Pokój 2-osobowy z łazienką i TV</span> (I piętro)
-          </li>
-          <li>
-            <span>Pokój 4-osobowy z łazienką i TV</span> (I piętro)
-          </li>
-          <li>
-            <span>Pokój 6-osobowy z łazienką</span> (I piętro)
-          </li>
-          <li>
-            <span>Pokój 4-osobowy z łazienką, TV i aneksem kuchennym</span> (I
-            piętro)
-          </li>
-          <li>
-            <span>Pokój 4-osobowy z łazienką na korytarzu</span> (poddasze) -
-          </li>
-        </ul> */}
+        <div className={styles.legend}>
+          <div>
+            <Image
+              src="/icon-bathroom-color.svg"
+              alt="łazienka"
+              width={24}
+              height={24}
+              priority
+            />
+            &nbsp;&nbsp;Łazienka
+          </div>
+          <div>
+            <Image
+              src="/icon-TV-color.svg"
+              alt="TV"
+              width={24}
+              height={24}
+              priority
+            />
+            &nbsp;&nbsp;TV
+          </div>
+          <div>
+            <Image
+              src="/icon-kitchen-color.svg"
+              alt="kuchnia"
+              width={24}
+              height={24}
+              priority
+            />
+            &nbsp;&nbsp;Kuchnia
+          </div>
+        </div>
+
         <a href={`tel:${contact.phone}`} className="btn">
           Zapytaj o dostępność
         </a>

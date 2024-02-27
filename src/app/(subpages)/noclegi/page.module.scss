@@ -5,3 +5,10 @@
         color: $colorPrimary;
       }
 }
+.legend {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 400px;
+  gap: $space4;
+  margin: $space4 0;
+}
