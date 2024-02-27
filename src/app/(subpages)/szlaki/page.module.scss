@@ -1,0 +1,45 @@
+@import "@/styles/variables";
+.trail {
+    display: inline-block;
+    width: 24px;
+    height: 10px;
+    
+}
+.green {
+    background-color: $colorPrimary;
+}
+.black {
+    background-color: $colorNeutralDark;
+}
+.blue {
+    background-color: $colorSecondary;
+}
+.yellow {
+    background-color: rgb(255, 213, 0);
+}
+.legend {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: $space5;
+    margin: $space3 0;
+    p {
+        font-size: $small;
+        margin: 0;
+        display: inline-block;
+        margin-left: $space3;
+        font-weight: 600;
+    }
+  }
+  .bold {
+    font-weight: 600;
+  }
+  .separator {
+    display: none;
+    width: 1px;
+    height: 24px;
+    background-color: $colorNeutralDark;
+    @media screen and ($tablet) {
+        display: block;
+    }
+  }

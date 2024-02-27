@@ -3,7 +3,8 @@ import NavLink from "./navLink/NavLink";
 
 const navLinks = [
     { label: "noclegi", path: "/noclegi" },
-    { label: "kontakt", path: "/kontakt" }
+    { label: "szlaki", path: "/szlaki" },
+    { label: "kontakt", path: "/kontakt" },
   ]
   
   const Links = ({type, isMenuOpen}) => {
