@@ -64,7 +64,11 @@ body {
       color: $colorPrimary;
     }
   }
-
+nav a {
+  &:hover {
+    color: $colorPrimaryLight;
+  }
+}
   small {
     font-size: $xSmall;
     a {

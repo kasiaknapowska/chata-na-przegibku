@@ -1,7 +1,10 @@
 @import "@/styles/_variables.scss";
 .active {
-  color: $colorPrimary !important;
-  text-decoration: underline;
-  text-decoration-thickness: 2px;
-  text-underline-offset: $space2;
+  color: $colorPrimaryLight;
+  @media screen and ($desktopS) {
+    color: $colorPrimary !important;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-underline-offset: $space2;
+  }
 }
