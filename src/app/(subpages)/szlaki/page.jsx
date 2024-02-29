@@ -1,8 +1,18 @@
+"use client";
 import Image from "next/image";
 import styles from "./page.module.scss";
 import { trails } from "@/data/trails";
+import { useState } from "react";
 
 export default function Szlaki() {
+  const [clicked, setClicked] = useState("0");
+  const handleToggle = (i) => {
+    if (clicked === i) {
+      return setClicked("0");
+    }
+    setClicked(i);
+  };
+  console.log(clicked);
   return (
     <>
       <div className="container">
@@ -21,14 +31,12 @@ export default function Szlaki() {
 
           {trails.map((trail) => {
             return (
-              <div key={trail.id}>
-                <h3 className={styles.bold}>
-                  {trail.id}.&nbsp;{trail.name}
-                </h3>
+              <div key={trail.id} className={styles.singleTrail}>
+                <h3 className={styles.bold}>{trail.name}</h3>
                 <div className={styles.legend}>
-                  {trail.colors.map((color) => {
+                  {trail.colors.map((color, i) => {
                     return (
-                      <div>
+                      <div key={i + color}>
                         <div
                           className={`${
                             color === "zielony" ? styles.green : undefined
@@ -64,8 +72,18 @@ export default function Szlaki() {
                     />
                     <p>{trail.onFoot}</p>
                   </div>
+                  <div className={styles.separator}></div>
+                  <p onClick={() => handleToggle(trail.id)}>
+                    Więcej informacji <span className={clicked === trail.id ? styles.isShown : null}></span>
+                  </p>
                 </div>
-                <p>{trail.info}</p>
+                <div
+                  className={`${styles.wrapper} ${
+                    clicked === trail.id ? styles.isShown : null
+                  }`}
+                >
+                  <p className={styles.inner}>{trail.info}</p>
+                </div>
               </div>
             );
           })}

@@ -1,45 +1,94 @@
 @import "@/styles/variables";
 .trail {
-    display: inline-block;
-    width: 24px;
-    height: 10px;
-    
+  display: inline-block;
+  width: 24px;
+  height: 10px;
+}
+.singleTrail {
+  margin-bottom: $space6;
+  padding-bottom: $space4;
+  border-bottom: 1px solid $colorNeutralDark;
+  @media screen and ($desktop) {
+    border-bottom: none;
+  }
 }
 .green {
-    background-color: $colorPrimary;
+  background-color: $colorPrimary;
 }
 .black {
-    background-color: $colorNeutralDark;
+  background-color: $colorNeutralDark;
 }
 .blue {
-    background-color: $colorSecondary;
+  background-color: $colorSecondary;
 }
 .yellow {
-    background-color: rgb(255, 213, 0);
+  background-color: rgb(255, 213, 0);
 }
 .legend {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: $space5;
+  margin: $space3 0;
+  p {
+    font-size: $small;
+    margin: 0;
+    display: inline-block;
+    font-weight: 600;
+    &:last-child {
+        overflow: hidden;
+        transition: 2s;
+      &:hover {
+        cursor: pointer;
+        color: $colorPrimary;
+        span {
+            border-color: $colorPrimary;
+        }
+      }
+      span {
+        display: inline-block;
+        width: 10px;
+        height: 10px;
+        border-top: 1px solid $colorNeutralDark;
+        border-right: 1px solid $colorNeutralDark;
+        transform: rotate(135deg);
+        transition: .3s;
+        margin: 0 10px;
+        position: relative;
+        top: -3px;
+        &.isShown {
+            transform: rotate(-45deg); 
+            top: 0;
+        }
+      }
+    }
+  }
+  & > div {
     display: flex;
     align-items: center;
-    flex-wrap: wrap;
-    gap: $space5;
-    margin: $space3 0;
-    p {
-        font-size: $small;
-        margin: 0;
-        display: inline-block;
-        margin-left: $space3;
-        font-weight: 600;
-    }
+    gap: $space2;
   }
-  .bold {
-    font-weight: 600;
+}
+.bold {
+  font-weight: 600;
+}
+div.separator {
+  display: none;
+  width: 1px;
+  height: 24px;
+  background-color: $colorNeutralDark;
+  @media screen and ($tablet) {
+    display: block;
   }
-  .separator {
-    display: none;
-    width: 1px;
-    height: 24px;
-    background-color: $colorNeutralDark;
-    @media screen and ($tablet) {
-        display: block;
-    }
+}
+.wrapper {
+    display: grid;
+    grid-template-rows: 0fr;
+    transition: grid-template-rows 0.3s ease-out;
+  }  
+  .wrapper.isShown {
+    grid-template-rows: 1fr;
+  }
+  .inner {
+    overflow: hidden;
   }
