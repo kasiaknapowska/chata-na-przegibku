@@ -98,7 +98,10 @@ nav a {
     font-size: $medium;
     line-height: 2rem;
     list-style-type: circle;
-    list-style-position: outside;
+    list-style-position: inside;
+    @media screen and ($tablet) {
+      list-style-position: outside;
+    }
     li span {
       font-weight: 700;
     }

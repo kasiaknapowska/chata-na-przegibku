@@ -18,8 +18,7 @@ const Navbar = ({type}) => {
       <Image
               src={type === "hero" ? "/logo-white.svg" : "/logo-color.svg"}
               alt="Chata na Przegibku Logo"
-              // className={styles.logo}
-              width={220}
+              width={180}
               height={100}
               priority
             />
