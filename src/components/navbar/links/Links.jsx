@@ -8,11 +8,11 @@ const navLinks = [
     { label: "kontakt", path: "/kontakt" },
   ]
   
-  const Links = ({type, isMenuOpen}) => {
+  const Links = ({type, isMenuOpen, onHamburgerClick}) => {
     return (
         <nav className={`${!isMenuOpen ? styles.nav : undefined} ${type === "hero" ? styles.hero : undefined} ${isMenuOpen ? styles.navOpen : undefined}`}>
         {navLinks.map(link => (
-          <NavLink item={link} key={link.label}/>
+          <NavLink item={link} key={link.label} onHamburgerClick={onHamburgerClick}/>
         ))}
       </nav>
     )
