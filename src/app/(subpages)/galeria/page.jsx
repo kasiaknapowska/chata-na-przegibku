@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Gallery from "@/components/gallery/Gallery";
 
 export default function Galeria() {
   
@@ -10,7 +11,9 @@ export default function Galeria() {
           <p>
             Obejrzyj zdjęcia z naszej Chaty i okolicznych szlaków!
           </p>
-          
+        </section>
+        <section>
+          <Gallery/>
         </section>
       </div>
     </>

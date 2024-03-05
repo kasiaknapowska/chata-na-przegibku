@@ -1,0 +1,30 @@
+@import "@/styles/variables";
+.gallery {
+  ul,
+  li {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    
+  }
+
+  img {
+    display: block;
+    width: 100%;
+    margin-bottom: $space3;
+    cursor: pointer;
+  }
+  ul {
+    column-count: 1;
+    column-gap: $space3;
+    @media screen and ($tablet) {
+        column-count: 2;
+    }
+    @media screen and ($desktop) {
+        column-count: 3;
+    }
+  }
+  li {
+    break-inside: avoid;
+  }
+}
