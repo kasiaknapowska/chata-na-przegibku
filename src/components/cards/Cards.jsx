@@ -1,15 +1,13 @@
+import Card from "./card/Card";
+import { cardsContainer } from "./cards.module.scss";
 import { cards } from "@/data/cards";
 
 const Cards = () => {
   return (
-    <div>
+    <div className={cardsContainer}>
       {cards.map((el) => {
         return (
-        <>
-        <h3>{el.title}</h3>
-        <p>{el.description}</p>
-        </>
-        
+          <Card title={el.title} description={el.description}/>
         );
       })}
     </div>

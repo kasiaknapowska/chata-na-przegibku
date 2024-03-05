@@ -27,7 +27,7 @@ export const cards = [
     name: "plac",
     title: "Plac zabaw",
     description:
-      "Nasz plac zabaw to idealne miejsce dla najmłodszych. Zapewni dzieciom świetną zabawę, a rodzicom chwilę wytchnienia po aktywnym dniu w górachF.",
+      "Nasz plac zabaw to idealne miejsce dla najmłodszych. Zapewni dzieciom świetną zabawę, a rodzicom chwilę wytchnienia po aktywnym dniu w górach.",
   },
   {
     name: "grill",
@@ -43,7 +43,7 @@ export const cards = [
   },
   {
     name: "imprezy",
-    title: "Imprezy okolicznościowe",
+    title: "Imprezy",
     description:
       "Organizujemy imprezy okolicznościowe: wesela, komunie, urodziny, imprezy integracyjne. Zadzwoń i zapytaj o szczegóły!",
   },
@@ -57,6 +57,6 @@ export const cards = [
     name: "krzyz",
     title: "Krzyż na Bendoszce",
     description:
-      "Krzyż Jubileuszowy Ziemii Żywieckiej ufundowany w 2000 roku przez parafian Rycerki Górnej i Przegibka. Stanowi doskonały punkt orientacyjny dla turystów.",
+      "Krzyż Jubileuszowy Ziemii Żywieckiej ufundowany w 2000 r. przez parafian Rycerki Górnej i Przegibka. To doskonały punkt orientacyjny dla turystów.",
   },
 ];

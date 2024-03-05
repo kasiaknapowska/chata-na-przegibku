@@ -1,0 +1,11 @@
+@import "@/styles/variables";
+.cardsContainer {
+    padding: calc($space6 * 2) 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: $space6;
+    justify-content: center;
+    @media screen and ($desktop) {
+        justify-content: left;
+    }
+  }
