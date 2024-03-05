@@ -65,11 +65,11 @@ export const przegibekTrails = [
       },
       {
         id: 8,
-        name: "Na Będoszkę Wielką",
+        name: "Na Bendoszkę Wielką",
         colors: ["czarny"],
         distance: 0.7,
         onFoot: "15 min",
-        info: "Tuż przy Chacie na Przegibku wchodzimy na czarny szlak, który wiedzie południowym zboczem Będoszki Wielkiej na jej szczyt. Na szczycie znajduje się charakterystyczny Krzyż Jubileuszowy, ufundowany przez parafian z Rycerki Górnej i Przegibka w 2000 roku. Obok znajduje się punkt widokowy, z którego roztaczają się piękne widoki na Beskid Żywiecki. Trasa jest łatwa do przejścia i bardzo krótka, stanowi doskonały spacer dla gości naszej Chaty."
+        info: "Tuż przy Chacie na Przegibku wchodzimy na czarny szlak, który wiedzie południowym zboczem Bendoszki Wielkiej na jej szczyt. Na szczycie znajduje się charakterystyczny Krzyż Jubileuszowy, ufundowany przez parafian z Rycerki Górnej i Przegibka w 2000 roku. Obok znajduje się punkt widokowy, z którego roztaczają się piękne widoki na Beskid Żywiecki. Trasa jest łatwa do przejścia i bardzo krótka, stanowi doskonały spacer dla gości naszej Chaty."
       }
     ],
   },

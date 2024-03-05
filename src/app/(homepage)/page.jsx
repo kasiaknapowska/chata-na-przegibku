@@ -1,6 +1,7 @@
 import Image from "next/image";
 import styles from "./page.module.scss";
 import { contact } from "@/data/contact";
+import Cards from "@/components/cards/Cards";
 
 export default function Home() {
   return (
@@ -54,6 +55,9 @@ export default function Home() {
         </p>
       </section>
       <section>
+        <Cards/>
+      </section>
+      <section>
        <h2>Chata na Przegibku to:</h2> 
        <ul>
         <li>Komfortowe noclegi w pokojach o różnym standardzie</li>
@@ -66,6 +70,7 @@ export default function Home() {
       </section>
       <section>
         <h2>Oferujemy</h2>
+
         <ul>
           <li>Kąpiel w bani</li>
           <li>Saunę</li>
@@ -82,7 +87,7 @@ export default function Home() {
           <li>Stok narciarski (orczyk)</li>
           <li>Bacówka</li>
           <li>Kaplica Podwyższenia Krzyża Świętego</li>
-          <li>Krzyż Jubileuszowy Ziemi Żywieckiej na szczycie</li>
+          <li>Krzyż Jubileuszowy Ziemi Żywieckiej na szczycie Bendoszki Wielkiej</li>
         </ul>
       </section>
      </div>

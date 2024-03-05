@@ -57,6 +57,7 @@ body {
     cursor: pointer;
     display: inline-block;
     font-size: $medium;
+    transition: 0.3s;
     &:active {
       outline-width: 0;
     }
@@ -97,7 +98,7 @@ nav a {
     font-size: $medium;
     line-height: 2rem;
     list-style-type: circle;
-    list-style-position: inside;
+    list-style-position: outside;
     li span {
       font-weight: 700;
     }

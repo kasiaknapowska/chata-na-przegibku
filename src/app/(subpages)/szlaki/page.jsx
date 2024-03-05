@@ -115,7 +115,7 @@ export default function Szlaki() {
             className="btn"
             target="_blank"
             rel="noopener noreferrer"
-            style={{marginRight: "16px", minWidth: "230px"}}
+            style={{ marginRight: "16px", minWidth: "230px" }}
           >
             Mapa turystyczna
           </a>
@@ -124,10 +124,32 @@ export default function Szlaki() {
             className="btn"
             target="_blank"
             rel="noopener noreferrer"
-            style={{minWidth: "230px"}}
+            style={{ minWidth: "230px" }}
           >
             Szlaki turystyczne
           </a>
+        </section>
+        <section>
+          <h2>Przydatne rady dla turystów</h2>
+          <ul>
+            <li>
+              Należy zabrać ze sobą odpowiednią odzież i obuwie do wędrówek
+              górskich.
+            </li>
+            <li>
+              W zimie należy zaopatrzyć się w rakiety śnieżne. Można je
+              wypożyczyć w znajdującym się obok Chaty Schronisku PTTK na Przegibku i oddać
+              w innym schronisku.
+            </li>
+            <li>Należy zabrać ze sobą wystarczającą ilość wody i prowiantu.</li>
+            <li>
+              Należy poinformować kogoś o planowanym szlaku i godzinie powrotu.
+            </li>
+            <li>
+              Należy zachować ostrożność podczas wędrówki i stosować się do
+              zasad bezpieczeństwa.
+            </li>
+          </ul>
         </section>
       </div>
     </>
