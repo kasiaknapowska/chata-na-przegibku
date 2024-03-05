@@ -1,65 +1,101 @@
 @import "@/styles/variables";
 .card {
-    width: 320px;
-    height: 360px;
-    border: 1px solid $colorNeutralLight;
-    padding: $space5;
-    position: relative;
-    overflow: hidden;
-    transition: 0.5s;
+  width: 300px;
+  height: 360px;
+  border-radius: $border;
+  padding: $space5;
+  position: relative;
+  overflow: hidden;
+  transition: 0.5s;
   @media screen and ($tabletS) {
-    height: 320px;
+    height: 300px;
   }
+  .layer {
+    width: 100%;
+    height: 100%;
+    background-color: $colorPrimary;
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    top: 100%;
+    transition: 0.3s;
+  }
+  h3 {
+    color: white;
+    text-transform: uppercase;
+    position: relative;
+    z-index: 2;
+    transition: 0.4s;
+  }
+  p {
+    color: transparent;
+    position: absolute;
+    height: 200px;
+    max-width: 200px;
+    overflow: hidden;
+    top: 100px;
+    z-index: 2;
+    transition: 0.4s;
+    @media screen and ($tabletS) {
+      top: 80px;
+      max-width: 220px;
+    }
+  }
+
+  &:hover {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    p {
+      color: white;
+    }
     .layer {
+      top: 0;
+    }
+  }
+  @media screen and (max-width: 1000px) {
+    .layerActive {
+    //   width: 100%;
+    //   height: 100%;
+    //   background-color: $colorPrimary;
+    //   position: absolute;
+    //   z-index: 1;
+    //   left: 0;
+    //   top: 100%;
+    //   transition: 0.3s;
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+      top: 0;
+    }
+    .pActive {
+      color: white;
+    }
+  }
+  .imgContainer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 360px;
+    @media screen and ($tabletS) {
+      height: 300px;
+    }
+    img {
+      object-fit: cover;
+    }
+    &::after {
+      content: "";
       width: 100%;
       height: 100%;
-      background-color: $colorNeutralDark;
       position: absolute;
-      z-index: 1;
+      background-image: $colorGradientOverlay;
+      top: 0;
       left: 0;
-      top: 100%;
-      transition: 0.5s;
-    }
-    h3 {
-      color: $colorNeutralDark;
-      text-transform: uppercase;
-      position: relative;
-      z-index: 2;
-      transition: 0.4s;
-    }
-    p {
-      color: transparent;
-      position: absolute;
-      height: 200px;
-      max-width: 200px;
-      overflow: hidden;
-      top: 100px;
-      z-index: 2;
-      transition: 0.4s;
-      @media screen and ($tabletS) {
-        top: 80px;
-        max-width: 220px;
-      }
-    }
-    
-    &:hover {
-      box-shadow: 0 10px 20px rgba(0,0,0,.3);
-      border-color: white;
-      h3, p {
-        color: white;
-      }
-      .layer {
-          top: 0;
-      }
-    }
-  
-    .cardImg {
-      position: absolute;
-      width: 100%;
-      height: 320px;
-      bottom: 0;
-      left: 0;
-      opacity: 0.9;
     }
   }
-  
+  // .cardImg {
+  //   position: absolute;
+  //   width: 100%;
+  //   height: 320px;
+  //   bottom: 0;
+  //   left: 0;
+  //   opacity: 0.9;
+  // }
+}

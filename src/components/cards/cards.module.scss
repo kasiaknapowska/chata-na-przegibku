@@ -1,6 +1,6 @@
 @import "@/styles/variables";
 .cardsContainer {
-    padding: calc($space6 * 2) 0;
+    padding: $space6 0;
     display: flex;
     flex-wrap: wrap;
     gap: $space6;

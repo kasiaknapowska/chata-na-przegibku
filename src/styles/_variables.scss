@@ -11,6 +11,12 @@ $colorGradient: linear-gradient(
   rgba(0, 0, 0, 0.3) 60%,
   rgba(0, 0, 0, 0) 100%
 );
+$colorGradientOverlay: linear-gradient(
+  180deg,
+  rgba(0, 0, 0, 0.8) 0%,
+  rgba(0, 0, 0, 0.5) 30%,
+  rgba(0, 0, 0, 0) 100%
+);
 
 //spaces
 $space1: 0.25rem;
