@@ -6,7 +6,9 @@ import styles from "./page.module.scss";
 export default function Noclegi() {
   return (
     <div className="container">
+      <section>
       <h1>Noclegi w Chacie na Przegibku</h1>
+      </section>
       <section>
         <h2>Cennik</h2>
         <table className={styles.pricesTable}>

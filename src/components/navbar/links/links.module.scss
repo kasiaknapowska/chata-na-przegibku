@@ -1,4 +1,9 @@
 @import "@/styles/_variables.scss";
+
+@keyframes reveal {
+  from {opacity: 0}
+  to {opacity: 100%}
+}
 .nav {
   @media screen and (max-width: "999px") {
     display: none;
@@ -40,6 +45,7 @@
   text-align: center;
   color: white;
   text-transform: uppercase;
+  animation: reveal .5s;
   a {
     font-size: $mediumLarge;
   }

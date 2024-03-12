@@ -24,7 +24,7 @@ const Navbar = ({type}) => {
             />
       </Link>
       <Hamburger type={type} onHamburgerClick={onHamburgerClick} isMenuOpen={isMenuOpen}/>
-      <Links type={type} isMenuOpen={isMenuOpen} onHamburgerClick={onHamburgerClick}/>
+      <Links type={type} isMenuOpen={isMenuOpen} setIsMenuOpen={setIsMenuOpen}/>
     </header>
   );
 };
