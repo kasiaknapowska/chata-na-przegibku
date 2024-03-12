@@ -11,12 +11,12 @@
   img {
     display: block;
     width: 100%;
-    margin-bottom: $space3;
+    margin-bottom: $space2;
     cursor: pointer;
   }
   ul {
     column-count: 1;
-    column-gap: $space3;
+    column-gap: $space2;
     @media screen and ($tablet) {
         column-count: 2;
     }

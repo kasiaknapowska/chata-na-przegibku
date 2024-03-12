@@ -1,12 +1,7 @@
 import styles from "./links.module.scss"
 import NavLink from "./navLink/NavLink";
+import { navLinks } from "@/data/navLinks";
 
-const navLinks = [
-    { label: "noclegi", path: "/noclegi" },
-    { label: "szlaki", path: "/szlaki" },
-    { label: "galeria", path: "/galeria" },
-    { label: "kontakt", path: "/kontakt" },
-  ]
   
   const Links = ({type, isMenuOpen, setIsMenuOpen}) => {
     return (
