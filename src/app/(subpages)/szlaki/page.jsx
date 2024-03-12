@@ -3,6 +3,7 @@ import Image from "next/image";
 import styles from "./page.module.scss";
 import { przegibekTrails } from "@/data/trails";
 import { links } from "@/data/links";
+import { contact } from "@/data/contact";
 import { useState } from "react";
 
 export default function Szlaki() {
@@ -103,7 +104,28 @@ export default function Szlaki() {
             </section>
           );
         })}
-
+        <section>
+          <h2>Przydatne rady dla turystów</h2>
+          <ul>
+            <li>
+              Należy zabrać ze sobą odpowiednią odzież i obuwie do wędrówek
+              górskich.
+            </li>
+            <li>
+              W zimie należy zaopatrzyć się w rakiety śnieżne. Można je
+              wypożyczyć w znajdującym się obok Chaty Schronisku PTTK na
+              Przegibku i oddać w innym schronisku.
+            </li>
+            <li>Należy zabrać ze sobą wystarczającą ilość wody i prowiantu.</li>
+            <li>
+              Należy poinformować kogoś o planowanym szlaku i godzinie powrotu.
+            </li>
+            <li>
+              Należy zachować ostrożność podczas wędrówki i stosować się do
+              zasad bezpieczeństwa.
+            </li>
+          </ul>
+        </section>
         <section>
           <h2>Chcesz zaplanować trasę wycieczki? </h2>
           <p>
@@ -129,27 +151,11 @@ export default function Szlaki() {
             Szlaki turystyczne
           </a>
         </section>
+
         <section>
-          <h2>Przydatne rady dla turystów</h2>
-          <ul>
-            <li>
-              Należy zabrać ze sobą odpowiednią odzież i obuwie do wędrówek
-              górskich.
-            </li>
-            <li>
-              W zimie należy zaopatrzyć się w rakiety śnieżne. Można je
-              wypożyczyć w znajdującym się obok Chaty Schronisku PTTK na Przegibku i oddać
-              w innym schronisku.
-            </li>
-            <li>Należy zabrać ze sobą wystarczającą ilość wody i prowiantu.</li>
-            <li>
-              Należy poinformować kogoś o planowanym szlaku i godzinie powrotu.
-            </li>
-            <li>
-              Należy zachować ostrożność podczas wędrówki i stosować się do
-              zasad bezpieczeństwa.
-            </li>
-          </ul>
+          <h3>Masz pytania? Zadzwoń do nas - tel. <a href={`tel:${contact.phone}`} className="h3style">
+          {contact.phoneLabel}
+        </a></h3>
         </section>
       </div>
     </>

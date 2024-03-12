@@ -5,9 +5,7 @@
     padding: 0;
     margin: 0;
     list-style: none;
-    
   }
-
   img {
     display: block;
     width: 100%;
@@ -18,13 +16,28 @@
     column-count: 1;
     column-gap: $space2;
     @media screen and ($tablet) {
-        column-count: 2;
+      column-count: 2;
     }
     @media screen and ($desktop) {
-        column-count: 3;
+      column-count: 3;
     }
   }
   li {
     break-inside: avoid;
+    &.lightbox {
+      position: fixed;
+      width: 100%;
+      height: 100vh;
+      top: 0;
+      left: 0;
+      background-color: $colorBlack80;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      & > img {
+        width: auto;
+        height: 80%;
+      }
+    }
   }
 }

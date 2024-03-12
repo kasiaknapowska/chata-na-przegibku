@@ -1,7 +1,7 @@
 "use client";
 import { useState } from "react";
 import Card from "./card/Card";
-import { cardsContainer } from "./cards.module.scss";
+import { cardsContainer, conditionalInfo } from "./cards.module.scss";
 import { cards } from "@/data/cards";
 
 const Cards = () => {
@@ -13,7 +13,9 @@ const Cards = () => {
     setClicked(i);
   };
   return (
-    <div className={cardsContainer}>
+ <>
+ <p className={conditionalInfo}>Kliknij na kafelek, by dowiedzieć się więcej.</p>
+ <div className={cardsContainer}>
       {cards.map((el) => {
         return (
           <Card
@@ -28,6 +30,7 @@ const Cards = () => {
         );
       })}
     </div>
+ </>
   );
 };
 export default Cards;

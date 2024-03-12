@@ -1,11 +1,12 @@
 "use client";
-import { gallery } from "./gallery.module.scss";
+import { gallery, lightbox } from "./gallery.module.scss";
 import { galleryImages } from "@/data/galleryImages";
 
 const Gallery = () => {
   return (
     <div className={gallery}>
       <ul>
+        {/* <li className={lightbox}><img src={`/chata-na-przegibku-hero.jpg`} alt="" title=""></img></li> */}
         {galleryImages.map((img) => {
           return (
             <li key={img}>

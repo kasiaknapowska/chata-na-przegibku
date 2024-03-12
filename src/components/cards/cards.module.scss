@@ -9,3 +9,8 @@
         justify-content: left;
     }
   }
+  .conditionalInfo {
+    @media screen and ($desktopS) {
+        display: none;
+    }
+  }
