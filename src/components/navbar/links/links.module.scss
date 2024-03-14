@@ -34,7 +34,8 @@
   display: flex;
   flex-direction: column;
   gap: $space6;
-  justify-content: center;
+  // justify-content: center;
+  padding-top: 30vh;
   background-color: $colorPrimary;
   position: fixed;
   width: 100%;
