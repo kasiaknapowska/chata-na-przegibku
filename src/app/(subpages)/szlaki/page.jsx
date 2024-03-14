@@ -62,7 +62,7 @@ export default function Szlaki() {
                       <div className={styles.separator}></div>
                       <div>
                         <Image
-                          src="/icon-distance-color.svg"
+                          src="icons/icon-distance-color.svg"
                           alt="TV"
                           width={32}
                           height={32}
@@ -73,7 +73,7 @@ export default function Szlaki() {
                       <div className={styles.separator}></div>
                       <div>
                         <Image
-                          src="/icon-on-foot-color.svg"
+                          src="icons/icon-on-foot-color.svg"
                           alt="TV"
                           width={32}
                           height={32}

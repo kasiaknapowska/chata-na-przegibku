@@ -57,7 +57,7 @@ export default function Noclegi() {
               <td>
                 {" "}
                 <Image
-                  src="/icon-bathroom-color.svg"
+                  src="icons/icon-bathroom-color.svg"
                   alt="łazienka"
                   width={24}
                   height={24}
@@ -65,7 +65,7 @@ export default function Noclegi() {
                 />
                 &nbsp;&nbsp;&nbsp;
                 <Image
-                  src="/icon-TV-color.svg"
+                  src="icons/icon-TV-color.svg"
                   alt="TV"
                   width={24}
                   height={24}
@@ -77,7 +77,7 @@ export default function Noclegi() {
               <td>4-os.</td>
               <td>
                 <Image
-                  src="/icon-bathroom-color.svg"
+                  src="icons/icon-bathroom-color.svg"
                   alt="łazienka"
                   width={24}
                   height={24}
@@ -85,7 +85,7 @@ export default function Noclegi() {
                 />
                 &nbsp;&nbsp;&nbsp;
                 <Image
-                  src="/icon-TV-color.svg"
+                  src="icons/icon-TV-color.svg"
                   alt="TV"
                   width={24}
                   height={24}
@@ -97,7 +97,7 @@ export default function Noclegi() {
               <td>6-os.</td>
               <td>
                 <Image
-                  src="/icon-bathroom-color.svg"
+                  src="icons/icon-bathroom-color.svg"
                   alt="łazienka"
                   width={24}
                   height={24}
@@ -109,7 +109,7 @@ export default function Noclegi() {
               <td>4-os.</td>
               <td>
                 <Image
-                  src="/icon-bathroom-color.svg"
+                  src="icons/icon-bathroom-color.svg"
                   alt="łazienka"
                   width={24}
                   height={24}
@@ -117,7 +117,7 @@ export default function Noclegi() {
                 />
                 &nbsp;&nbsp;&nbsp;
                 <Image
-                  src="/icon-TV-color.svg"
+                  src="icons/icon-TV-color.svg"
                   alt="TV"
                   width={24}
                   height={24}
@@ -125,7 +125,7 @@ export default function Noclegi() {
                 />
                 &nbsp;&nbsp;&nbsp;
                 <Image
-                  src="/icon-kitchen-color.svg"
+                  src="icons/icon-kitchen-color.svg"
                   alt="kuchnia"
                   width={24}
                   height={24}
@@ -142,7 +142,7 @@ export default function Noclegi() {
         <div className={styles.legend}>
           <div>
             <Image
-              src="/icon-bathroom-color.svg"
+              src="icons/icon-bathroom-color.svg"
               alt="łazienka"
               width={24}
               height={24}
@@ -152,7 +152,7 @@ export default function Noclegi() {
           </div>
           <div>
             <Image
-              src="/icon-TV-color.svg"
+              src="icons/icon-TV-color.svg"
               alt="TV"
               width={24}
               height={24}
@@ -162,7 +162,7 @@ export default function Noclegi() {
           </div>
           <div>
             <Image
-              src="/icon-kitchen-color.svg"
+              src="icons/icon-kitchen-color.svg"
               alt="kuchnia"
               width={24}
               height={24}

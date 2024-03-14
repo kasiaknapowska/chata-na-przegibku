@@ -14,7 +14,7 @@ const Footer = () => {
           <p>{address}</p>
           <a href={`tel:${phone}`}>
             <Image
-              src="/icon-phone-white.svg"
+              src="icons/icon-phone-white.svg"
               alt="telefon kontaktowy"
               width={20}
               height={20}
@@ -25,7 +25,7 @@ const Footer = () => {
 
         <a href={facebook} target="_blank" rel="noopener noreferrer">
           <Image
-            src="/icon-fb.svg"
+            src="icons/icon-fb.svg"
             alt="facebook"
             width={30}
             height={40}

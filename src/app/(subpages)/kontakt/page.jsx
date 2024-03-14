@@ -16,7 +16,7 @@ export default function Kontakt() {
           <p>{address}</p>
           <a href={`tel:${phone}`}>
             <Image
-              src="/icon-phone.svg"
+              src="icons/icon-phone.svg"
               alt="telefon kontaktowy"
               width={20}
               height={20}
