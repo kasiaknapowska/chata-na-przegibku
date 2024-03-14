@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Gallery from "@/components/gallery/Gallery";
 
 export default function Galeria() {
