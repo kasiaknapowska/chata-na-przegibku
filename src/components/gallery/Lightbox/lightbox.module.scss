@@ -1,0 +1,78 @@
+@import "@/styles/variables";
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 100%;
+    }
+}
+div.lightbox {
+  display: none;
+  
+  @media screen and ($desktopS) {
+    animation: fadeIn .3s;
+    position: fixed;
+    z-index: 20;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background-color: $colorBlack80;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    & > img {
+      width: auto;
+      max-width: 90vw;
+      height: 90%;
+      object-fit: contain;
+    }
+    .sliderNav {
+      width: 80vw;
+      display: flex;
+      justify-content: space-between;
+      position: absolute;
+      z-index: 21;
+      top: 45%;
+      left: 9vw;
+    }
+    .sliderNav div:first-child,
+    .sliderNav div:last-child {
+      cursor: pointer;
+      width: 2rem;
+      height: 2rem;
+      border-top: 0.25rem solid white;
+      border-right: 0.25rem solid white;
+    }
+    .sliderNav div:first-child {
+      transform: rotate(-135deg);
+    }
+    .sliderNav div:last-child {
+      transform: rotate(45deg);
+    }
+    .closeBtn {
+      cursor: pointer;
+      width: 2.5rem;
+      height: 2.5rem;
+      position: absolute;
+      z-index: 21;
+      top: 5vh;
+      right: 2.5rem;
+      span {
+        display: block;
+        width: 100%;
+        height: 0.2rem;
+        background-color: white;
+        &:first-child {
+          rotate: (45deg);
+        }
+        &:last-child {
+          rotate: (-45deg);
+          position: relative;
+          top: -2px;
+        }
+      }
+    }
+  }
+}
