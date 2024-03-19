@@ -5,10 +5,10 @@ import { cardsContainer, conditionalInfo } from "./cards.module.scss";
 import { cards } from "@/data/cards";
 
 const Cards = () => {
-  const [clicked, setClicked] = useState("0");
+  const [clicked, setClicked] = useState(0);
   const handleToggle = (i) => {
     if (clicked === i) {
-      return setClicked("0");
+    return setClicked(0);
     }
     setClicked(i);
   };

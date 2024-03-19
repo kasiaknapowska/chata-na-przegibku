@@ -97,8 +97,11 @@ nav a {
   ul {
     font-size: $medium;
     line-height: 2rem;
-    list-style-type: circle;
+    list-style-type: disc;
     list-style-position: inside;
+    li::marker {
+      color: $colorPrimary;
+    }
     @media screen and ($tablet) {
       list-style-position: outside;
     }
