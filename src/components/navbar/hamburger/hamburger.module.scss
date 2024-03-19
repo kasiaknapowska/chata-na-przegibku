@@ -45,7 +45,11 @@
     }
   
     &.open {
-      // position: fixed;
+      position: fixed;
+      right: 5%;
+    @media screen and ($tablet) {
+      right: 10%;
+    }
       span {
         background-color: white;
       }

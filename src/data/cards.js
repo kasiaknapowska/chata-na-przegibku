@@ -4,7 +4,7 @@ export const cards = [
     name: "bania",
     title: "Bania ruska",
     description:
-      "Tuż obok Chaty, znajduje się opalana piecem na drewno bania ruska (beczka). Gorące kąpiele polecamy w mroźne dni w ramach relaksu po wędrówkach górskich.",
+      "Tuż obok Chaty znajduje się opalana piecem na drewno bania ruska (beczka). Gorące kąpiele polecamy w mroźne dni w ramach relaksu po wędrówkach górskich.",
   },
   {
     id: 2,
