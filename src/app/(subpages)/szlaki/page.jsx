@@ -23,7 +23,7 @@ export default function Szlaki() {
           <p>
             Przez Przegibek przebiegają liczne szlaki turystyczne, co czyni
             naszą Chatę idealną bazą wypadową dla miłośników górskich wędrówek.
-            Położenie Chaty na południowym zboczu Będoszki Wielkiej, w pobliżu
+            Położenie Chaty na południowym zboczu Bendoszki Wielkiej, w pobliżu
             charakterystycznego krzyża, ułatwia jej dostrzeżenie z pobliskich
             szlaków.
           </p>
