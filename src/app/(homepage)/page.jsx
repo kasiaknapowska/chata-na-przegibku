@@ -11,8 +11,11 @@ export default function Home() {
           <span>Czekamy na Ciebie</span> <br></br>w sercu <br></br>Beskidu
           Żywieckiego
         </h1>
-        <a href={`tel:${contact.phone}`} className={styles.heroButton}>
+        <a href={`tel:${contact.phone}`} className={`${styles.heroButton} ${styles.heroButtonMobile}`}>
           Zarezerwuj nocleg
+        </a>
+        <a href="/kontakt" className={`${styles.heroButton} ${styles.heroButtonDesktop}`}>
+          Skontaktuj się z nami
         </a>
       </div>
       <div className={styles.imgContainer}>

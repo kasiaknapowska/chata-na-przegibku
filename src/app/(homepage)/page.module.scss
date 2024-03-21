@@ -47,4 +47,15 @@
       border-color: white;
     }
   }
+  .heroButtonMobile {
+    @media screen and ($tabletS) {
+      display: none;
+    }
+  }
+  .heroButtonDesktop {
+    display: none;
+    @media screen and ($tabletS) {
+      display: inline-block;
+    }
+  }
 }
