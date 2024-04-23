@@ -46,7 +46,7 @@ export const cards = [
     name: "gry",
     title: "Gry planszowe",
     description:
-      "Dla naszych gości w każdym wieki dostępny jest kącik z grami planszowymi. To dobry sposób na spędzenie wieczorów oraz dni z kapryśną aurą.",
+      "Dla naszych gości w każdym wieku dostępny jest kącik z grami planszowymi. To dobry sposób na spędzenie wieczorów oraz dni z kapryśną aurą.",
   },
   {
     id: 8,

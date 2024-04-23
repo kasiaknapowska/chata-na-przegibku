@@ -1,5 +1,5 @@
 export const prices = {
-    adults: 70,
-    kid7: 45,
+    adults: 90,
+    kid7: 60,
     kid3: "GRATIS"
 }

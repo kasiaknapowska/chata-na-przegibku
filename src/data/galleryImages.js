@@ -3,7 +3,7 @@ export const galleryImages = [];
 const imgData = [
   { title: "chata-na-przegibku", count: 16 },
   { title: "chata-zima", count: 3 },
-  { title: "bania", count: 1 },
+  // { title: "bania", count: 1 },
   { title: "bendoszka-wielka", count: 2 },
   { title: "stok-narciarski-orczyk", count: 1 },
   { title: "plac-zabaw", count: 2 },

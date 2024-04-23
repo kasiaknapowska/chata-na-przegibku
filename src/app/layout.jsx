@@ -9,7 +9,7 @@ export const montserrat = Montserrat({
 
 export const metadata = {
   title: "Chata na Przegibku",
-  description: `Chata z widokiem na góry, położona na przełęczy Przegibek oferująca noclegi w pokojach z łazienkami. Rezerwacja telefoniczna: ${contact.phoneLabel}`,
+  description: `Chata z widokiem na góry, położona na przełęczy Przegibek oferuje noclegi w pokojach z łazienkami. Rezerwacja telefoniczna: ${contact.phoneLabel}`,
 };
 
 export default function RootLayout({ children }) {
