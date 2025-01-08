@@ -8,7 +8,7 @@ export const montserrat = Montserrat({
 });
 
 export const metadata = {
-  title: "Chata na Przegibku",
+  title: "Agroturystyka Chata na Przegibku",
   description: `Chata z widokiem na góry, położona na przełęczy Przegibek oferuje noclegi w pokojach z łazienkami. Rezerwacja telefoniczna: ${contact.phoneLabel}`,
 };
 

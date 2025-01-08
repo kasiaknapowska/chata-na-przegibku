@@ -10,7 +10,7 @@ const Footer = () => {
     <footer className={footer}>
       <div className="container">
         <div>
-          <h4>Chata na Przegibku</h4>
+          <h4>Agroturystyka Chata na Przegibku</h4>
           <p>{address}</p>
           <a href={`tel:${phone}`}>
             <Image

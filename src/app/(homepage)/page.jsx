@@ -8,7 +8,7 @@ export default function Home() {
     <div className={styles.homepage}>
       <div className={styles.heroPlaceholder}>
         <h1 className="hero">
-          <span>Czekamy na Ciebie</span> <br></br>w sercu <br></br>Beskidu
+          <span>Agroturystyka</span> <br></br>w sercu <br></br>Beskidu
           Żywieckiego
         </h1>
         <a href={`tel:${contact.phone}`} className={`${styles.heroButton} ${styles.heroButtonMobile}`}>
@@ -33,7 +33,7 @@ export default function Home() {
           <p>
             Jeśli marzy Wam się odpoczynek w górach na łonie natury, urokliwe
             wschody i zachody słońca, zapierające dech w piersiach górskie
-            krajobrazy - serdecznie zapraszamy do Chaty na Przegibku!
+            krajobrazy - serdecznie zapraszamy do naszej agroturystyki Chata na Przegibku!
           </p>
           <p>
             Nasza Chata położona jest na wysokości 1000 m n.p.m. w Beskidzie
@@ -50,7 +50,7 @@ export default function Home() {
             Przegibek, w którym serwowane są smaczne domowe obiady.
           </p>
           <p>
-            Chata na Przegibku to nie tylko komfortowe miejsce noclegowe, ale
+            Agroturystyka Chata na Przegibku to nie tylko komfortowe miejsce noclegowe, ale
             przede wszystkim oaza spokoju i wytchnienia. To tutaj można
             zregenerować siły, nacieszyć się pięknem górskich krajobrazów i
             zaznać prawdziwej górskiej atmosfery.

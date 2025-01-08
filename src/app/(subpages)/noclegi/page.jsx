@@ -34,7 +34,7 @@ export default function Noclegi() {
       <section>
         <h2>Pokoje</h2>
         <p>
-          Chata na Przegibku oferuje komfortowe noclegi w pokojach o różnym
+          Agroturystyka Chata na Przegibku oferuje komfortowe noclegi w pokojach o różnym
           standardzie, idealne zarówno dla par szukających romantycznego wyjazd,
           rodzin z dziećmi, grupy przyjaciów, jak i grup zorganizowanych. Cztery
           pokoje z łazienkami znajdują się na piętrze naszej Chaty. Jeden pokój

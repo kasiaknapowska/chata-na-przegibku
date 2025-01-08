@@ -10,7 +10,7 @@ export default function Kontakt() {
         <section>
           <h1>Skontaktuj się z nami</h1>
           <p>
-            Masz pytania lub chcesz zarezerwować nocleg w naszej Chacie? Zadzwoń
+            Masz pytania lub chcesz zarezerwować nocleg w naszej agroturystyce? Zadzwoń
             do nas!
           </p>
           <p>{address}</p>
